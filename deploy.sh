@@ -22,6 +22,9 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git remote add origin https://github.com/enbo-wang/webnote.git
 git branch -M master
-git push -u origin master
+git push -f origin master
 
 cd -
+git add --all
+git commit -m 'deploy'
+git push -u origin master
