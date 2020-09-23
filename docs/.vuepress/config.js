@@ -2,7 +2,7 @@ module.exports = {
   theme:"antdocs",
   title: "WEB Doc | 在线文档",
   description: "A VuePress project Create by enbo.wang.",
-  base: "/",
+  base: "/vuepress/",
   head: [
     ["link",{ rel: "icon",href: "/assets/logo.png" }]
   ],
