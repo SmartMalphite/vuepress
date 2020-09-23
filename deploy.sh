@@ -7,12 +7,12 @@ set -e
 yarn run build
 
 # navigate into the build output directory
-mv docs/.vuepress/dist ./
+cd docs/.vuepress/dist
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
-# git init
+git init
 git add --all
 git commit -m 'deploy'
 
@@ -20,6 +20,8 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
+git remote add origin https://github.com/enbo-wang/webnote.git
+git branch -M master
 git push -u origin master
 
-# cd -
+cd -
