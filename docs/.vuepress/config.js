@@ -9,6 +9,16 @@ module.exports = {
   markdown: {
     lineNumbers: false,
   },
+  plugins: {
+    // "vuepress-plugin-auto-sidebar": {
+    //   titleMode: "titlecase",
+    //   titleMap:{
+    //     doc: "VuePress",
+    //     tech: "技术方案"
+    //   },
+    //   collapsable:true,
+    // }
+  },
   themeConfig: {
     smoothScroll: true,
     nav: require("./config/nav"),
