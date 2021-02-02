@@ -41,6 +41,16 @@ module.exports = {
       ]
     },
   ],
+  '/be-note/python-note/': [
+    {
+      title: 'Python学习笔记',
+      collapsable: true, //是否展开
+      children: [
+        '',
+        "pack/argparse",
+      ]
+    },
+  ],
   '/be-note/be-tool/': [
     {
       title: '常用框架&类库汇总',
