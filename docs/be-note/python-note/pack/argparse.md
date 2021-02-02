@@ -6,23 +6,22 @@ title: Argparse 使用
 
 ## 基础代码
 以下代码是实现一个命令行参数的最小代码
-"""
+```
 import argparse
 parser = argparse.ArgumentParser()
 parser.parse_args()
-"""
+```
 
 ## 位置参数
-"""
+```
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("echo")
 args = parser.parse_args()
 print(args.echo)
-"""
+```
 执行结果
-"""
+```
 > python demo.py 123
 > 123
-"""
-
+```
